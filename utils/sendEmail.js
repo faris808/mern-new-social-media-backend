@@ -26,7 +26,7 @@ export const sendVerificationEmail = async (user, res) => {
   const token = _id + uuidv4();
 
   const link = APP_URL + "users/verify/" + _id + "/" + token;
-
+  console.log("Email verification", link);
   //   mail options
   const mailOptions = {
     from: AUTH_EMAIL,
@@ -89,7 +89,7 @@ export const resetPasswordLink = async (user, res) => {
 
   const token = _id + uuidv4();
   const link = APP_URL + "users/reset-password/" + _id + "/" + token;
-
+  console.log("Password reset link", link);
   //   mail options
   const mailOptions = {
     from: AUTH_EMAIL,
