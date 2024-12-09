@@ -9694,7 +9694,7 @@
         v = u((0, e.useState)(null), 2),
         g = v[0],
         y = v[1],
-        b = "https://mern-new-social-media-frontend.vercel.app/login",
+        b = "https://social-wave-social-media.vercel.app/login",
         w = (function () {
           var e,
             t =
