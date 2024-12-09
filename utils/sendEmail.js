@@ -48,7 +48,7 @@ export const sendVerificationEmail = async (user, res) => {
     </p>
     <div style="margin-top: 20px;">
         <h5>Best Regards</h5>
-        <h5>ShareFun Team</h5>
+        <h5>SocialWave Team</h5>
     </div>
 </div>`,
   };
